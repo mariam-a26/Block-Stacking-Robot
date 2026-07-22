@@ -1,0 +1,89 @@
+Capturing initial marker positions... Ensure all ArUco markers on your printout are visible.
+Detected ID: 3 at World Pos: X=0.31, Y=-0.01, Z=-0.15
+Detected ID: 2 at World Pos: X=0.23, Y=0.10, Z=-0.13
+Detected ID: 1 at World Pos: X=0.20, Y=-0.04, Z=-0.12
+
+Dynamically Restricted XY Workspace: X from -9.80mm to 10.31mm, Y from -10.04mm to 10.10mm
+Pen Z-heights: UP=25.00mm, DOWN=16.00mm
+Enter a sequence of ArUco marker IDs separated by spaces (e.g., '121 123 231 -1' to stop input): 1 3 2 3 3 1 -1
+
+Trajectory sequence received: [1, 3, 2, 3, 3, 1]
+
+Executing trajectory...
+
+--- Processing ArUco ID: 1 ---
+Moving to target ID 1 at (X=0.20, Y=-0.04)
+Moving to X=0.20, Y=-0.04, Z=25.00 (pen up)
+Lowering to X=196.32, Y=-36.99, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=196.32, Y=-36.99, Z=16.00
+Lifting to X=196.32, Y=-36.99, Z=25.00 (pen up)
+Moving robot to home position (out of camera's view) before next move.
+
+--- Processing ArUco ID: 3 ---
+Moving to target ID 3 at (X=0.31, Y=-0.01)
+Moving to X=0.31, Y=-0.01, Z=25.00 (pen up)
+Lowering to X=308.82, Y=-6.71, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=308.82, Y=-6.71, Z=16.00
+Lifting to X=308.82, Y=-6.71, Z=25.00 (pen up)
+Moving robot to home position (out of camera's view) before next move.
+
+--- Processing ArUco ID: 2 ---
+Moving to target ID 2 at (X=0.23, Y=0.10)
+Moving to X=0.23, Y=0.10, Z=25.00 (pen up)
+Lowering to X=231.39, Y=104.62, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=231.39, Y=104.62, Z=16.00
+Lifting to X=231.39, Y=104.62, Z=25.00 (pen up)
+Moving robot to home position (out of camera's view) before next move.
+
+--- Processing ArUco ID: 3 ---
+Moving to target ID 3 at (X=0.31, Y=-0.01)
+Moving to X=0.31, Y=-0.01, Z=25.00 (pen up)
+Lowering to X=308.82, Y=-6.71, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=308.82, Y=-6.71, Z=16.00
+Lifting to X=308.82, Y=-6.71, Z=25.00 (pen up)
+
+--- Processing ArUco ID: 3 ---
+Moving to target ID 3 at (X=0.31, Y=-0.01)
+Moving to X=0.31, Y=-0.01, Z=25.00 (pen up)
+Lowering to X=308.82, Y=-6.71, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=308.82, Y=-6.71, Z=16.00
+Lifting to X=308.82, Y=-6.71, Z=25.00 (pen up)
+Moving robot to home position (out of camera's view) before next move.
+
+--- Processing ArUco ID: 1 ---
+Moving to target ID 1 at (X=0.20, Y=-0.04)
+Moving to X=0.20, Y=-0.04, Z=25.00 (pen up)
+Lowering to X=196.32, Y=-36.99, Z=16.00 (pen down)
+Actual robot pose at dot placement: X=196.32, Y=-36.99, Z=16.00
+Lifting to X=196.32, Y=-36.99, Z=25.00 (pen up)
+
+Trajectory execution complete.
+
+--- Recorded Data Summary ---
+ID: 1
+  Camera Detected (World): X=0.20, Y=-0.04, Z=-0.12
+  Robot Actual Pen Tip:    X=196.32, Y=-36.99, Z=16.00
+--------------------
+ID: 3
+  Camera Detected (World): X=0.31, Y=-0.01, Z=-0.15
+  Robot Actual Pen Tip:    X=308.82, Y=-6.71, Z=16.00
+--------------------
+ID: 2
+  Camera Detected (World): X=0.23, Y=0.10, Z=-0.13
+  Robot Actual Pen Tip:    X=231.39, Y=104.62, Z=16.00
+--------------------
+ID: 3
+  Camera Detected (World): X=0.31, Y=-0.01, Z=-0.15
+  Robot Actual Pen Tip:    X=308.82, Y=-6.71, Z=16.00
+--------------------
+ID: 3
+  Camera Detected (World): X=0.31, Y=-0.01, Z=-0.15
+  Robot Actual Pen Tip:    X=308.82, Y=-6.71, Z=16.00
+--------------------
+ID: 1
+  Camera Detected (World): X=0.20, Y=-0.04, Z=-0.12
+  Robot Actual Pen Tip:    X=196.32, Y=-36.99, Z=16.00
+--------------------
+Part 2 script finished.
+
+pen measures 12 mm

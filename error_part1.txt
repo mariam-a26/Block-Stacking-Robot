@@ -1,0 +1,3 @@
+1: distance from center = 6mm
+2: distance from center = 9mm
+3: distance from center = 9mm
