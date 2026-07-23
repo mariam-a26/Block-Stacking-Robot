@@ -1,3 +1,6 @@
+
+
+
 # Vision-Guided Autonomous Block Stacking Robot
 
 An end-to-end robotics and computer vision pipeline that uses vision-enabled language models to provide object localization from 2D, transforming visual pixel bounding boxes into 3D world coordinates to drive autonomous pick-and-place and block-stacking routines via a robotic arm and suction end-effector.
@@ -5,9 +8,9 @@ An end-to-end robotics and computer vision pipeline that uses vision-enabled lan
 ---
 
 ## 📹 Robot Block Stacking Demo
-<video src="robot_block_stacker.mp4" controls width="100%" autoplay loop muted>
-  Your browser does not support the video tag.
-</video>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/5d37db4d-37f4-4c36-a6c2-6e045b4cb152" controls width="80%"></video>
+</p>
 ---
 
 ## Overview & Architecture
