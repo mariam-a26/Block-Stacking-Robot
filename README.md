@@ -5,7 +5,9 @@ An end-to-end robotics and computer vision pipeline that uses vision-enabled lan
 ---
 
 ## 📹 Robot Block Stacking Demo
-🎬 [Click here to watch the full execution video (robot_block_stacker.mov)](./robot_block_stacker.mov)
+<video src="robot_block_stacker.mp4" controls width="100%" autoplay loop muted>
+  Your browser does not support the video tag.
+</video>
 ---
 
 ## Overview & Architecture
