@@ -8,9 +8,16 @@ An end-to-end robotics and computer vision pipeline that uses vision-enabled lan
 ---
 
 ## 📹 Robot Block Stacking Demo
-<p align="center">
+<!-- <p align="center">
   <video src="https://github.com/user-attachments/assets/5d37db4d-37f4-4c36-a6c2-6e045b4cb152" controls width="80%"></video>
+</p> -->
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/5d37db4d-37f4-4c36-a6c2-6e045b4cb152" width="70%" controls autoplay loop muted>
+    Your browser does not support the video tag.
+  </video>
 </p>
+
 ---
 
 ## Overview & Architecture
